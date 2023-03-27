@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="bootstrap-5.3.0-alpha2-dist/css/bootstrap.min.css">
+  </head>
+  <body>
+<div class="container mt-5 border">
+    <h3>Button:</h3>
+    <button type="button" class="btn btn-primary">Read More</button>
+    <button type="button" class="btn btn-dark">Read More</button>
+    <button type="button" class="btn btn-danger">Read More</button>
+    <button type="button" class="btn btn-info">Read More</button>
+    <button type="button" class="btn btn-success">Read More</button>
+    <button type="button" class="btn btn-secondary">Read More</button>
+    <button type="button" class="btn btn-warning">Read More</button>
+</div>
+<div class="container mt-5 border">
+    <h3>Button Outline:</h3>
+    <button type="button" class="btn btn-outline-primary">Read More</button>
+    <button type="button" class="btn btn-outline-secondary">Read More</button>
+    <button type="button" class="btn btn-outline-danger">Read More</button>
+    <button type="button" class="btn btn-outline-info">Read More</button>
+    <button type="button" class="btn btn-outline-dark">Read More</button>
+    <button type="button" class="btn btn-outline-success">Read More</button>
+    <button type="button" class="btn btn-outline-warning">Read More</button>
+</div>
+<div class="container mt-5 border">
+    <h3>Button Size:</h3>
+    <button type="button" class="btn btn-primary btn-lg">Large button</button>
+    <button type="button" class="btn btn-primary">Default button</button>
+    <button type="button" class="btn btn-primary btn-sm">small button</button>
+</div>
+<div class="container mt-5 border">
+    <h3> Full With Button:</h3>
+    <div class="d-grid">
+        <button type="button" class="btn btn-primary btn-block">Full width button</button>
+    </div>
+</div>
+<div class="container mt-5 border">
+    <h3>Button Gap:</h3>
+    <div class="d-grid gap-3">
+        <button type="button" class="btn btn-primary btn-block">Full width button</button>
+        <button type="button" class="btn btn-primary btn-block">Full width button</button>
+        <button type="button" class="btn btn-primary btn-block">Full width button</button>
+      </div>
+</div>
+<div class="container mt-5 border border-primary">
+    <h3>Active Button & Disabled Button & Active Link :</h3>
+        <button type="button" class="btn btn-primary active">Active Button</button>
+        <button type="button" class="btn btn-primary disabled">Disabled Button</button>
+        <a href="#" class="btn btn-primary disabled">Disabled Link Button</a>
+    </div>
+    <div class="container mt-5 border border-danger">
+        <h3> Spinner Button:</h3>
+        <button class="btn btn-primary" type="button">
+            <span class="spinner-border spinner-border-sm" ></span>
+        </button>
+        <button class="btn btn-primary" type="button">
+            <span class="spinner-grow spinner-grow-sm" ></span>
+        </button>
+        <button class="btn btn-primary" type="button" disabled>
+            <span class="spinner-border spinner-border-sm"></span>
+            Loading...
+        </button>
+        <button class="btn btn-primary" type="button">
+            <span class="spinner-border spinner-border-sm"></span>
+            Loading...
+        </button>
+        <button class="btn btn-primary" type="button" disabled>
+            <span class="spinner-grow spinner-grow-sm"></span>
+            Loading...
+        </button>
+    </div>
+    <div class="container mt-5 border border-info">
+        <h3>Button Group:</h3>
+        <div class="btn-group">
+            <button type="button" class="btn btn-primary">Apple</button>
+            <button type="button" class="btn btn-info">Samsung</button>
+            <button type="button" class="btn btn-danger">Sony</button>
+          </div>
+    </div>
+    <div class="container mt-5 border border-info">
+        <h3>Button Group:</h3>
+        <div class="btn-group-vertical">
+            <button type="button" class="btn btn-primary">Apple</button>
+            <button type="button" class="btn btn-info">Samsung</button>
+            <button type="button" class="btn btn-danger">Sony</button>
+          </div>
+    </div>
+    <div class="container mt-5 border border-info">
+        <h3>Nesting Button Groups:</h3>
+        <p>Nest button groups to create dropdown menus:</p>
+        <div class="btn-group">
+            <button type="button" class="btn btn-primary">Apple</button>
+            <button type="button" class="btn btn-primary">Samsung</button>
+          
+            <div class="btn-group" >
+              <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+                Sony
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#"> Tablets</a></li>
+                <li><a class="dropdown-item" href="#"> Smartphones</a></li>
+              </ul>
+            </div>
+          </div>
+    </div>
+    <script src="bootstrap-5.3.0-alpha2-dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
